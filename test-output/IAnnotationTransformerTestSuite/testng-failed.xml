@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IAnnotationTransformerTestSuite]">
+  <listeners>
+    <listener class-name="testNGTutorial.IAnnotationTransformerClass"/>
+  </listeners>
+  <test name="IAnnotationTransformerTestTest(failed)">
+    <classes>
+      <class name="testNGTutorial.ITestListnerTest">
+        <methods>
+          <include name="testSoftAssert"/>
+          <include name="DummyFail"/>
+        </methods>
+      </class> <!-- testNGTutorial.ITestListnerTest -->
+      <class name="testNGTutorial.IAnnotationTransformerTest">
+        <methods>
+          <include name="dummyFailTest2"/>
+          <include name="dummyFailTest1"/>
+        </methods>
+      </class> <!-- testNGTutorial.IAnnotationTransformerTest -->
+    </classes>
+  </test> <!-- IAnnotationTransformerTestTest(failed) -->
+</suite> <!-- Failed suite [IAnnotationTransformerTestSuite] -->

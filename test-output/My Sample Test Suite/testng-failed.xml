@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Test Suite]" allow-return-values="true">
+  <parameter name="firstName" value="Hello World"/>
+  <test name="Assertion Test(failed)">
+    <groups>
+      <run>
+        <include name="grpall"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="testLogin3"/>
+          <include name="testLogin2" invocation-numbers="0"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Assertion Test(failed) -->
+  <test name="Learn Skip Test(failed)">
+    <classes>
+      <class name="test.SkippingTest">
+        <methods>
+          <include name="testskip"/>
+        </methods>
+      </class> <!-- test.SkippingTest -->
+    </classes>
+  </test> <!-- Learn Skip Test(failed) -->
+</suite> <!-- Failed suite [My Sample Test Suite] -->

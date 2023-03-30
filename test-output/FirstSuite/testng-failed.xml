@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirstSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="BrokenLinkVerification">
+        <methods>
+          <include name="BrokenLinks"/>
+        </methods>
+      </class> <!-- BrokenLinkVerification -->
+      <class name="ScrollingTutorial">
+        <methods>
+          <include name="scrollToElementTest"/>
+        </methods>
+      </class> <!-- ScrollingTutorial -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FirstSuite] -->

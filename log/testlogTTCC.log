@@ -1,0 +1,3 @@
+2019-06-10 14:25:00,459 [main] WARN LoggerTutorial -  Warning Message
+2019-06-10 14:25:00,460 [main] ERROR LoggerTutorial -  Error Message
+2019-06-10 14:25:00,460 [main] FATAL LoggerTutorial -  Fatal Message

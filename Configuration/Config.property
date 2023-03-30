@@ -1,0 +1,9 @@
+ChromeDriver=F:\\workspaceSelenium\\Day1\\chromeDriver\\chromedriver.exe
+
+IeDriver=F:\\workspaceSelenium\\Day1\\ieDriver\\IEDriverServer.exe
+
+URL=http://www.learn-automation.com
+
+WordpressUrl=http://demosite.center/wordpress/wp-login.php
+
+TestDataExcelFile=F:\\ExcelData\\TestData.xlsx

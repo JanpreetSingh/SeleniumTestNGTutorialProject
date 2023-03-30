@@ -1,0 +1,58 @@
+2019-06-02 21:14:14,367 - LoggerTutorial -INFO - *********Chrome Browser Initialzed************
+2019-06-02 21:14:17,038 - LoggerTutorial -INFO - 1*********Google.com home page loaded************
+2019-06-02 21:14:17,039 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,040 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,041 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,041 - LoggerTutorial -INFO - 2*********Google.com home page loaded************
+2019-06-02 21:14:17,042 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,042 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,042 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,043 - LoggerTutorial -INFO - 3*********Google.com home page loaded************
+2019-06-02 21:14:17,045 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,046 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,047 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,049 - LoggerTutorial -INFO - 4*********Google.com home page loaded************
+2019-06-02 21:14:17,049 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,050 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,052 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,053 - LoggerTutorial -INFO - 5*********Google.com home page loaded************
+2019-06-02 21:14:17,053 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,054 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,054 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,054 - LoggerTutorial -INFO - 6*********Google.com home page loaded************
+2019-06-02 21:14:17,055 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,055 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,055 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-02 21:14:17,055 - LoggerTutorial -INFO - 7*********Google.com home page loaded************
+2019-06-02 21:14:17,060 - LoggerTutorial -WARN -  Warning Message
+2019-06-02 21:14:17,061 - LoggerTutorial -ERROR -  Error Message
+2019-06-02 21:14:17,061 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:24:58,098 - LoggerTutorial -INFO - *********Chrome Browser Initialzed************
+2019-06-10 14:25:00,443 - LoggerTutorial -INFO - 1*********Google.com home page loaded************
+2019-06-10 14:25:00,444 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,444 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,445 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,445 - LoggerTutorial -INFO - 2*********Google.com home page loaded************
+2019-06-10 14:25:00,446 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,446 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,446 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,447 - LoggerTutorial -INFO - 3*********Google.com home page loaded************
+2019-06-10 14:25:00,447 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,447 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,448 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,450 - LoggerTutorial -INFO - 4*********Google.com home page loaded************
+2019-06-10 14:25:00,451 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,451 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,453 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,454 - LoggerTutorial -INFO - 5*********Google.com home page loaded************
+2019-06-10 14:25:00,454 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,454 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,455 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,455 - LoggerTutorial -INFO - 6*********Google.com home page loaded************
+2019-06-10 14:25:00,456 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,456 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,456 - LoggerTutorial -FATAL -  Fatal Message
+2019-06-10 14:25:00,457 - LoggerTutorial -INFO - 7*********Google.com home page loaded************
+2019-06-10 14:25:00,459 - LoggerTutorial -WARN -  Warning Message
+2019-06-10 14:25:00,460 - LoggerTutorial -ERROR -  Error Message
+2019-06-10 14:25:00,460 - LoggerTutorial -FATAL -  Fatal Message

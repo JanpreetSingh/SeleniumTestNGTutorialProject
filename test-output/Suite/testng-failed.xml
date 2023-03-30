@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="testNGTutorial.TestNGTutorial">
+        <methods>
+          <include name="e_method"/>
+          <include name="f_method"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGTutorial.TestNGTutorial -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
