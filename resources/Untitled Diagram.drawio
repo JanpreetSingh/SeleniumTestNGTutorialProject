@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T13:17:24.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="0ahPM1FWxWvFUAlmFxRG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T15:31:19.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="otNJpacXLg1wS8Kqrgly" version="24.3.0" type="github">
   <diagram name="Page-1" id="gZJgNO5eI7kU5ygP73Ms">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U6Im6Bpd1VCLCNfUhpz8-1" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;tiptapChildEditor&amp;quot;,{&amp;quot;id&amp;quot;:&amp;quot;ca8953a7-e49c-45e7-b4fe-224ca8ae2ff6&amp;quot;,&amp;quot;entityid&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;shapeId&amp;quot;:&amp;quot;Zpsd7Al8EGf&amp;quot;,&amp;quot;textId&amp;quot;:&amp;quot;identifier&amp;quot;}]&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;color: #4b4b4b; font-size: 10pt; font-family: noto_regular&quot;&gt;class &lt;b&gt;CoverageCollector&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U6Im6Bpd1VCLCNfUhpz8-3" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;tiptapChildEditor&amp;quot;,{&amp;quot;id&amp;quot;:&amp;quot;f929a453-0117-450c-815a-69be57b2cd81&amp;quot;,&amp;quot;entityid&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;shapeId&amp;quot;:&amp;quot;bD75pAhFTvJ&amp;quot;,&amp;quot;textId&amp;quot;:&amp;quot;identifier&amp;quot;}]&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;color: #4b4b4b; font-size: 10pt; font-family: noto_regular&quot;&gt;class &lt;b&gt;CustomLogger&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U6Im6Bpd1VCLCNfUhpz8-4" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;tiptapChildEditor&amp;quot;,{&amp;quot;id&amp;quot;:&amp;quot;724989ca-47d6-4394-8c9d-ed733fb02b3a&amp;quot;,&amp;quot;entityid&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;shapeId&amp;quot;:&amp;quot;Wyi7f67MJx1&amp;quot;,&amp;quot;textId&amp;quot;:&amp;quot;identifier&amp;quot;}]&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;color: #4b4b4b; font-size: 10pt; font-family: noto_regular&quot;&gt;class &lt;b&gt;BaseListener &lt;/b&gt;implements IInvokedMethodListener, ISuiteListener, ITestListener&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U6Im6Bpd1VCLCNfUhpz8-6" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;tiptapChildEditor&amp;quot;,{&amp;quot;id&amp;quot;:&amp;quot;830152bd-d596-407c-a962-4a3dc13da7e0&amp;quot;,&amp;quot;entityid&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;shapeId&amp;quot;:&amp;quot;9Uf9OVTHU6h&amp;quot;,&amp;quot;textId&amp;quot;:&amp;quot;identifier&amp;quot;}]&quot; dir=&quot;ltr&quot;&gt;class &lt;b&gt;FailedTestsSuiteListener &lt;/b&gt;implements ISuiteListener, IExecutionListener&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U6Im6Bpd1VCLCNfUhpz8-7" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;tiptapChildEditor&amp;quot;,{&amp;quot;id&amp;quot;:&amp;quot;830152bd-d596-407c-a962-4a3dc13da7e0&amp;quot;,&amp;quot;entityid&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;shapeId&amp;quot;:&amp;quot;9Uf9OVTHU6h&amp;quot;,&amp;quot;textId&amp;quot;:&amp;quot;identifier&amp;quot;}]&quot; dir=&quot;ltr&quot;&gt;class &lt;b&gt;ScreenShot&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
