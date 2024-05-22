@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T13:00:04.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ewcvX-VtlmfKjnPtw5Yd" version="24.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-22T10:57:49.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CS_ueGqD7-jScW7nSshE" version="24.4.4" type="github" pages="2">
   <diagram name="Page-1" id="gZJgNO5eI7kU5ygP73Ms">
-    <mxGraphModel dx="2163" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,11 +335,14 @@
         <mxCell id="OgYiy6JKgJ7fVXA5wVSk-6" value="class &lt;font color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;HourlyTimecardPage&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="2040" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IVoMbVERXsvdl009zj7K-1" value="" style="line;strokeWidth=2;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+        <mxCell id="IVoMbVERXsvdl009zj7K-1" value="" style="line;strokeWidth=2;html=1;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="-540" y="1640" width="4240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="IVoMbVERXsvdl009zj7K-2" value="com.project.common" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IVoMbVERXsvdl009zj7K-2" value="src/test/java com.company.common" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="1600" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2uMchNdG3xb5nvbWk-a-2" value="src/test/java com.company.prdName" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1660" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
