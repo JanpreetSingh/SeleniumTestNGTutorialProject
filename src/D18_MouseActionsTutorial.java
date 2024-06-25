@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
  * where control over the Mouse and Keyboard is needed. 
  */
 
-public class MouseActionsTutorial {
+public class D18_MouseActionsTutorial {
 	
 	@Test
 	public void HoverOnElementTest() {

@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import com.google.common.base.Function;
 
 
-public class FluentWaitTutorial {
+public class D12_FluentWaitTutorial {
 	
 	@Test
 	public void useFluentWait() {

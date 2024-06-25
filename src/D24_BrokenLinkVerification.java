@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class BrokenLinkVerification {
+public class D24_BrokenLinkVerification {
 	
 	@Test
 	public void BrokenLinks() {

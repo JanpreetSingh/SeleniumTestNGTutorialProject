@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class RadioButtonHandling {
+public class D16_RadioButtonHandling {
 	
 	@Test
 	public void handleRadioButtons() throws InterruptedException {

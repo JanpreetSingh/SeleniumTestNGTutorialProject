@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 
-public class IframeTutorial {
+public class D13_IframeTutorial {
 	
 	@Test
 	public void iframeSwitch() {

@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
  * ChromeOptions, FirefoxOptions, InternetExplorerOptions, DesiredCapabilities etc.
 */
 
-public class UntrustedCertificateTutorial {
+public class D22_UntrustedCertificateTutorial {
 	
 	@Test
 	public void handleUntrustedCertificate_ChromeTest() {

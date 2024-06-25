@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class SelectDropDownFacebook {
+public class D17_SelectDropDownFacebook {
 	
 	@Test
 	public void selectDropDownValues() throws InterruptedException {

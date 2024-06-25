@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 
 
-public class AlertTutorial {
+public class D14_AlertTutorial {
 	
 	@Test
 	public void handleAlertTest() throws InterruptedException {

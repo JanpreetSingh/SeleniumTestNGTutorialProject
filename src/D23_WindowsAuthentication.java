@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
-public class WindowsAuthentication {
+public class D23_WindowsAuthentication {
 	
 	@Test
 	public void windowAuthTest() {

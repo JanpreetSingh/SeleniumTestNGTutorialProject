@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
-public class ScrollingTutorial {
+public class D19_ScrollingTutorial {
 	
 	@Test
 	public void scrollPageTest() {

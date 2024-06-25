@@ -6,15 +6,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import utility.Log4jUtility;
 
-public class LoggerTutorial {
+
+public class D25_LoggerTutorial {
 	
 	@Test
 	public void LoggerTest() {
 	
-	// Initialize Logger object
-	Logger logger = Logger.getLogger(LoggerTutorial.class); 
-	PropertyConfigurator.configure("./resources/log4j.properties");
+	// Get Logger object
+	Logger logger = Log4jUtility.createLogger(D25_LoggerTutorial.class);
 	
 	System.setProperty("webdriver.chrome.driver","F:\\workspaceSelenium\\Day1\\chromeDriver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();

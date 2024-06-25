@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import utility.ScreenCaptureUtility;
 
 
-public class ScreenshotFacebook {
+public class D20_ScreenshotFacebook {
 	
 	@Test
 	public void captureScreenshot() throws IOException {

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 
 
-public class WindowHandlesTutorial {
+public class D15_WindowHandlesTutorial {
 	
 	@Test
 	public void MultipleWindowsTest() {

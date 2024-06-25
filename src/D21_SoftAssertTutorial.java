@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
  * assertAll() method always needs to be called at last in the test script.*/
 
 
-public class SoftAssertTutorial {
+public class D21_SoftAssertTutorial {
 	
 	@Test
 	public void softAssertTest() {
