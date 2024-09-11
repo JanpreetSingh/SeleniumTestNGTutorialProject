@@ -1,4 +1,4 @@
-package test;
+package testNGTutorial;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -7,7 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 @Test(groups={"grpcommon"})
-public class LoginTest {
+public class GroupsTutorial {
 	
 	@Parameters("firstName")
 	@Test(groups={"grp1"})

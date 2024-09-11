@@ -1,4 +1,4 @@
-package test;
+package testNGTutorial;
 
 import org.testng.SkipException;
 import org.testng.annotations.Test;

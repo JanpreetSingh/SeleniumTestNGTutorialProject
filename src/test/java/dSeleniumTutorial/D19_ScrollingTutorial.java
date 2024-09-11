@@ -1,3 +1,4 @@
+package dSeleniumTutorial;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -23,18 +24,11 @@ public class D19_ScrollingTutorial {
 		//Create instance of Javascript Executor.
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
-		// window.scrollBy(HScroll,VScroll) and scroll(HScroll,VScroll) both method can be used to scroll.
+		// window.scrollBy(HScroll,VScroll) can be used to scroll by pixel.
 		// -ve parameter value means up or left scroll.
 		js.executeScript("window.scrollBy(0,10000)");
 		
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		js.executeScript("scroll(0,5000)");
+
 	}
 	
 	
@@ -80,9 +74,8 @@ public class D19_ScrollingTutorial {
 		//Create instance of Javascript Executor.
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
-		// window.scrollBy(HScroll,VScroll) and scroll(HScroll,VScroll) both method can be used to scroll.
-		// -ve parameter value means up or left scroll.
-		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		//Scroll to bottom of the page.
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 		
 		try {
 			Thread.sleep(3000);

@@ -4,14 +4,19 @@
     
   <test name="Test">
       
-      <parameter name="url" value="https://www.google.com/" />
-      <parameter name="searchText" value="Dummy TEXT"></parameter>
+    <parameter name="url" value="https://www.google.com/" />
+    <parameter name="searchText" value="Dummy TEXT"></parameter>
       
-    <classes>
-        
+    <groups>
+	     <run>
+		    <include name="SmokeTest" />
+	     </run>
+    </groups> 
+       
+    <classes>        
       <class name="testNGTutorial.TestNGTutorial"/>
-      
     </classes>
     
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->

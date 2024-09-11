@@ -10,10 +10,10 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-/* If we don’t mention any priority, testng will execute the @Test methods based on alphabetical order of their method names
+/* If we donï¿½t mention any priority, testng will execute the @Test methods based on alphabetical order of their method names
  * irrespective of their place of implementation in the code.
  * 
- * Number 0 has the highest priority(it’ll be executed first).
+ * Number 0 has the highest priority(itï¿½ll be executed first).
  * 
  * Testng considers the alphabetical order of the method names whose priority is same.
  * 
@@ -34,17 +34,17 @@ public class TestNGTutorial {
 	
 	/* "groups" attribute brings methods in the same group in the Testng Report.
 	 */
-	@Test(groups="Non-Prioritized")
+	@Test(groups="SmokeTest")
 	public void c_method() {
 		System.out.println("C");
 	}
 	
-	@Test(groups="Non-Prioritized")
+	@Test(groups="SmokeTest")
 	public void d_method() {
 		System.out.println("D");
 	}
 	
-	/* Number 0 has the highest priority(it’ll be executed first).
+	/* Number 0 has the highest priority(itï¿½ll be executed first).
 	 */
 	@Test(priority=0, groups="Prioritized")
 	public void b_method() {
@@ -96,34 +96,10 @@ public class TestNGTutorial {
 		driver.get(url);
 		driver.findElement(By.xpath("//input[@type='text' and @name='q']")).sendKeys(text);
 		
-		/* TestNG XML file for parameters and their values.
-		 
-		 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-    
-  <test name="Test">
-      
-      <parameter name="url" value="https://www.google.com/" />
-      <parameter name="searchText" value="Dummy TEXT"></parameter>
-      
-    <classes>
-        
-      <class name="TestNGTutorial"/>
-      
-    </classes>
-    
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
-
-*/
 	}
-	
-	
-	
-
 }
-
+/* Refer TestNGTutorialSuite.xml file for parameters and their values.
+*/
 
 
 
