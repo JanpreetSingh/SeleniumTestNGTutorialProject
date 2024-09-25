@@ -1,4 +1,4 @@
-package dSeleniumTutorial;
+package SeleniumTutorial;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;

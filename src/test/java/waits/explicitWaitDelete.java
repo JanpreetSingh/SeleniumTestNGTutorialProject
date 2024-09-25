@@ -1,17 +1,19 @@
 package waits;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import utility.BrowserFactoryUtility;
 
-public class explicitWait {
+public class explicitWaitDelete {
 	
 	@Test
 	public void explicitWaitTest(){
@@ -24,8 +26,12 @@ public class explicitWait {
 		driver.findElement(By.xpath("//button[text()='Click me to start timer']")).click();
 		//WebElement element = driver.findElement(By.xpath("//p[text()='WebDriver']"));
 		
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
+
+		//		Using Lambda Expression
+		WebElement element2 = driver.findElement(By.xpath("//p[text()='WebDriver']"));
+		wait.until(d -> d.findElement(By.xpath("//p[text()='WebDriver']")));
 		
 		boolean status=element.isDisplayed();
 		

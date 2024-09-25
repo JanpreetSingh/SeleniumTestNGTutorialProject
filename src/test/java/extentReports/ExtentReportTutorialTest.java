@@ -15,7 +15,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import utility.ScreenCaptureUtility;
 
@@ -30,10 +30,10 @@ public class ExtentReportTutorialTest {
 	@BeforeClass
 	public void setupExtentReporter() {
 		
-		ExtentHtmlReporter extentReporter = new ExtentHtmlReporter("./reports/verifySeleniumTitle.html");
+		ExtentSparkReporter reporter = new ExtentSparkReporter("./reports/verifySeleniumTitle.html");
 		
 		report = new ExtentReports();
-		report.attachReporter(extentReporter);
+		report.attachReporter(reporter);
 		
 		System.setProperty("webdriver.chrome.driver","F:\\workspaceSelenium\\Day1\\chromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();

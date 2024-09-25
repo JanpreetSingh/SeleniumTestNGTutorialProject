@@ -1,4 +1,4 @@
-package dSeleniumTutorial;
+package SeleniumTutorial;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
