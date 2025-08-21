@@ -1,6 +1,7 @@
 package SeleniumTutorial;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -48,16 +49,19 @@ public class D15_WindowHandlesTutorial {
 		System.out.println("Total number of windows --> " + allWindows.size());
 		System.out.println("Windows SET--> " + allWindows);
 		
-		ArrayList<String> allWindowsList = new ArrayList<>(allWindows);
-		System.out.println("Windows LIST--> " + allWindowsList);
-		// The window list after reversing will have windows in the order in which the links were clicked. 
-		//But, the parent window will appear at the last index of the list.
-		Collections.reverse(allWindowsList);
-		System.out.println("Reversed Windows LIST--> " + allWindowsList);
+		Iterator<String> itr = allWindows.iterator();
+		while (itr.hasNext()) {
+			String childWindow = itr.next();
+			
+			if(!parentWindow.equals(childWindow)) {
+				System.out.println(driver.switchTo().window(childWindow).getTitle());
+
+				driver.close();
+			}				
+		}
 		
-		driver.switchTo().window(allWindowsList.get(2));
-		System.out.println("CurrentURL --> " + driver.getCurrentUrl());
-		System.out.println("Window --> " + driver.getWindowHandle());
+		// Switch to parent window
+		driver.switchTo().window(parentWindow);
 		
 		
 	}

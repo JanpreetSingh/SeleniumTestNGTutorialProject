@@ -32,7 +32,8 @@ public class D11_ExplicitWaitTutorial {
 		wait.until(d -> d.findElement(By.xpath("//p[text()='WebDriver']")));
 	
 		
-		System.out.println("Element is Displayed ? "+element.isDisplayed());		
+		System.out.println("Element is Displayed ? "+element.isDisplayed());	
+
 	}
 
 }

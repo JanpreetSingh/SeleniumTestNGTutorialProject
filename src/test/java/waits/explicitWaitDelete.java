@@ -30,8 +30,7 @@ public class explicitWaitDelete {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
 
 		//		Using Lambda Expression
-		WebElement element2 = driver.findElement(By.xpath("//p[text()='WebDriver']"));
-		wait.until(d -> d.findElement(By.xpath("//p[text()='WebDriver']")));
+		WebElement element2 = wait.until(d -> d.findElement(By.xpath("//p[text()='WebDriver']")));
 		
 		boolean status=element.isDisplayed();
 		

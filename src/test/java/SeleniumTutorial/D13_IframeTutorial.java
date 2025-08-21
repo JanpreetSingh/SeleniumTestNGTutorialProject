@@ -1,4 +1,5 @@
 package SeleniumTutorial;
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -35,7 +36,7 @@ public class D13_IframeTutorial {
 		driver.findElement(By.id("authMobile")).sendKeys("9999999996");
 		
 		//Explicit  Wait.
-		WebDriverWait explicitlyWait = new WebDriverWait(driver, 10);
+		WebDriverWait explicitlyWait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		boolean elementValueEntered = explicitlyWait.until(ExpectedConditions.textToBePresentInElementValue(By.id("authMobile"),"9999999996"));
 		System.out.println(elementValueEntered);				
 		

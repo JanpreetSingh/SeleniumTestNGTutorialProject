@@ -1,4 +1,7 @@
 package testNGTutorial;
+import java.util.Arrays;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -95,7 +98,6 @@ public class TestNGTutorial {
 		System.out.println("parameters_method()");		
 		driver.get(url);
 		driver.findElement(By.xpath("//input[@type='text' and @name='q']")).sendKeys(text);
-		
 	}
 }
 /* Refer TestNGTutorialSuite.xml file for parameters and their values.
